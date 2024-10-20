@@ -8,6 +8,6 @@ import { Component, Input } from '@angular/core';
   styleUrl: './at-option.component.less'
 })
 export class AtOptionComponent<T = any> {
-/** The form value of the option. */
-@Input() value!: T;
+  /** The form value of the option. */
+  @Input() value!: T;
 }
